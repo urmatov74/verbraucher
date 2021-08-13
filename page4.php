@@ -1,0 +1,179 @@
+<?php require 'header.php'; ?>
+
+<main class="main">
+    <div class="container">
+        
+    <?php 
+        $one3 = "active";
+        require 'sidebar.php'; 
+    ?>
+
+    <div class="content">
+        <div class="page__info">
+            <div class="page__info__left">
+                <span>SPAREINLAGEN</span>
+                <h2>После заключения договора</h2>
+                <p>Wie und was genau sage ich es meinem Kunden?</p>
+            </div>
+            <div class="page__info__link">
+                <a href="../test.pdf" target="_blank">
+                    <img src="http://fimvestnik.ru/wp-content/uploads/2017/03/pdfs-512.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="check__block">
+            <label>
+                <input type="checkbox">
+                <span></span>
+            </label>
+            <div class="check__block__info">
+                <p>Право на принятие денег на депозитный счёт.</p>
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <span class="mb-0" role="button" data-target="#collapseOne" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="collapseOne">
+                            <span class="accordion_batton"></span>
+                            <button class="btn btn-link" type="button">
+                                <!-- <span class="parag">&#167;</span> -->
+                                <img class="parag" src="img/par2.png" alt="">
+                                <span class="title__card">Регулярные взносы на Ваш депозитный счёт приближают Вас к цели</span>
+                                <img class="arr" src="img/arr.svg" alt="">
+                            </button>
+
+                        </span>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Вы можете пополнить Ваш депозит в любое время в филиалах и сберкассах нашего банка. Кроме того, Вы можете воспользоваться платёжными терминалами.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="check__block">
+            <label>
+                <input type="checkbox">
+                <span></span>
+            </label>
+            <div class="check__block__info">
+                <p>Право на возврат накопленных денег</p>
+                <div class="card">
+                    <div class="card-header" id="heading2">
+                        <span class="mb-0" role="button" data-target="#collapse2" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="collapse2">
+                            <span class="accordion_batton"></span>
+                            <button class="btn btn-link" type="button">
+                                <!-- <span class="parag">&#167;</span> -->
+                                <img class="parag" src="img/par2.png" alt="">
+                                <span class="title__card">Право на возврат накопленных денег в любое время, а также выплаты процентов (с определенными ограничениями) согласно условиям договора</span>
+                                <img class="arr" src="img/arr.svg" alt="">
+                            </button>
+
+                        </span>
+                    </div>
+
+                    <div id="collapse2" class="collapse" aria-labelledby="heading2"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="check__block">
+            <label>
+                <input type="checkbox">
+                <span></span>
+            </label>
+            <div class="check__block__info">
+                <p>Право на урегулирование жалоб в течение 30 календарных дней.</p>
+                <div class="card">
+                    <div class="card-header" id="heading3">
+                        <span class="mb-0" role="button" data-target="#collapse3" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="collapse3">
+                            <span class="accordion_batton"></span>
+                            <button class="btn btn-link" type="button">
+                                <!-- <span class="parag">&#167;</span> -->
+                                <img class="parag" src="img/par2.png" alt="">
+                                <span class="title__card">Если у Вас возникнет повод для жалоб</span>
+                                <img class="arr" src="img/arr.svg" alt="">
+                            </button>
+
+                        </span>
+                    </div>
+
+                    <div id="collapse3" class="collapse" aria-labelledby="heading3"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Вы можете обратиться к нам в устной или письменной форме. У нас есть книга жалоб и предложений, где вы можете оставить свой отзыв. Мы обязаны ответить на Вашу жалобу в течение 30 календарных дней в письменном виде на том языке, на котором Вы к нам обратились.  В случае, если Вы чем-то недовольны, я предлагаю Вам, сразу обратиться ко мне или моим коллегам. Мы постараемся быстро разрешить ситуацию. Ваши замечания помогут нам улучшить свой сервис.
+<br>+ ссылка на Закон. (сайт НБКР или др.) 
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="check__block">
+            <label>
+                <input type="checkbox">
+                <span></span>
+            </label>
+            <div class="check__block__info">
+                <p>Право на обращение в Национальный банк.</p>
+                <div class="card">
+                    <div class="card-header" id="heading4">
+                        <span class="mb-0" role="button" data-target="#collapse4" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="collapse4">
+                            <span class="accordion_batton"></span>
+                            <button class="btn btn-link" type="button">
+                                <!-- <span class="parag">&#167;</span> -->
+                                <img class="parag" src="img/par2.png" alt="">
+                                <span class="title__card">Если Вы не согласны с принятым нами решением</span>
+                                <img class="arr" src="img/arr.svg" alt="">
+                            </button>
+
+                        </span>
+                    </div>
+
+                    <div id="collapse4" class="collapse" aria-labelledby="heading4"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            или считаете, что Ваши права нарушены, Вы можете обратиться в Национальный банк КР. Нам важно ваше мнение, и мы постараемся учесть все недостатки. Ещё раз, спасибо, что Вы выбрали наши финансовые услуги.
+                            <br>+   ссылка на Закон. (сайт НБКР или др.) 
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</main>
+<!--menu side bar-->
+
+    
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
